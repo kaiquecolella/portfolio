@@ -5,10 +5,9 @@
 
 .color-black {
     background-color: #262626;
-    height: 1000px;
 }
 .color-black-fade {
-    background-color: #3B3B3B;
+    background-color: #6e6e6e57;
 
 }
 
@@ -51,10 +50,34 @@
 }
 
 .card-solution{
-    height: 35rem;
-    width: 25rem;
+    height: 25rem;
+    width: 20rem;
+    background: transparent;
+    border: none;
+    background-image: url('../image/card-landing-page.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
+.card-solution h5 {
+    color: #f3f5f6;
+}
+
+.btn-card {
+    position: absolute;
+    bottom: 2%;
+    right: 0%;
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+    background-color: #F68B29;
+    border: none;
+    color: white;
+}
+.btn-card:hover {
+    background-color: #ffaf64;
+}
 
 
 
