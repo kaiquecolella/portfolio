@@ -54,10 +54,6 @@
     width: 20rem;
     background: transparent;
     border: none;
-    background-image: url('../image/card-landing-page.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
 }
 
 .card-solution h5 {
@@ -79,6 +75,49 @@
     background-color: #ffaf64;
 }
 
+body {
+    background-color: #eee;
+}
+
+.card-skill {
+    border: none;
+    border-radius: 10px;
+}
+
+
+.icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.badge span {
+    background-color: #ffe9d5;
+    width: 60px;
+    height: 25px;
+    padding-bottom: 3px;
+    border-radius: 5px;
+    display: flex;
+    color: #F68B29;
+    justify-content: center;
+    align-items: center;
+}
+
+.progress {
+    height: 10px;
+    border-radius: 10px;
+}
+
+.progress div {
+    background-color: #F68B29;
+}
+
+.carousel-control-prev-icon {
+    background-color: black;
+}
 
 
 @media (min-width: 991px) {
