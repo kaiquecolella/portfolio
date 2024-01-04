@@ -1,3 +1,7 @@
+body {
+    background-color: #eee;
+}
+
 .color-orange {
     color: #F68B29;
     
@@ -75,9 +79,7 @@
     background-color: #ffaf64;
 }
 
-body {
-    background-color: #eee;
-}
+
 
 .card-skill {
     border: none;
@@ -118,6 +120,7 @@ body {
 .carousel-control-prev-icon {
     background-color: black;
 }
+
 
 
 @media (min-width: 991px) {
