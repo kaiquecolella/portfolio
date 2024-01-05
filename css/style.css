@@ -121,6 +121,25 @@ body {
     background-color: black;
 }
 
+.slick-prev, .slick-next  {
+    z-index: 1;  
+}
+.slick-next {
+    right: 3rem;
+}
+.slick-prev {
+    left: 3rem;
+}
+
+.slick-prev::before, .slick-next::before {
+    font-size: 3rem;
+    color: black;
+}
+
+.carousel-slick img {
+    width: 50%;
+}
+
 
 
 @media (min-width: 991px) {
