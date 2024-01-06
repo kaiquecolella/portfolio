@@ -2,14 +2,19 @@ body {
     background-color: #eee;
 }
 
+a {
+    text-decoration: none;
+}
+
 .color-orange {
     color: #F68B29;
-    
+
 }
 
 .color-black {
     background-color: #262626;
 }
+
 .color-black-fade {
     background-color: #6e6e6e57;
 
@@ -35,6 +40,7 @@ body {
     transition: 0.3s background-color;
     border-radius: 40px;
     padding: 0.5rem 2rem;
+
 }
 
 
@@ -46,14 +52,14 @@ body {
     border-radius: 40px;
 }
 
-.button-second-section{
+.button-second-section {
     padding: 0.5rem;
     width: 18.5rem;
     background-color: rgb(255, 255, 255);
     border-radius: 5rem;
 }
 
-.card-solution{
+.card-solution {
     height: 25rem;
     width: 20rem;
     background: transparent;
@@ -75,6 +81,7 @@ body {
     border: none;
     color: white;
 }
+
 .btn-card:hover {
     background-color: #ffaf64;
 }
@@ -118,28 +125,37 @@ body {
 }
 
 .carousel-control-prev-icon {
-    background-color: black;
+    background-color: #F68B29;
 }
 
-.slick-prev, .slick-next  {
-    z-index: 1;  
+.slick-prev, .slick-next {
+    z-index: 1;
 }
+
 .slick-next {
-    right: 3rem;
+    right: 0px;
 }
+
 .slick-prev {
-    left: 3rem;
+    left: 0px;
 }
 
 .slick-prev::before, .slick-next::before {
-    font-size: 3rem;
-    color: black;
+    color: #F68B29;
 }
 
-.carousel-slick img {
-    width: 50%;
+.carousel {
+    background-color: #eee;
 }
 
+.slick-dots {
+    bottom: 0px;
+}
+
+.slick-slide {
+    margin: 20px;
+    padding: 10px;
+}
 
 
 @media (min-width: 991px) {
@@ -160,5 +176,12 @@ body {
         width: 90%;
         visibility: visible;
     }
-}
 
+    .slick-prev::before, .slick-next::before {
+        font-size: 3rem;
+    }
+
+    .slick-next {
+        right: 1.5rem;
+    }
+}
